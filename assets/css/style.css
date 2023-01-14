@@ -39,12 +39,12 @@ textarea {
 
 .present {
   background-color: lavenderblush;
-  color: white;
+  color: black;
 }
 
 .future {
   background-color: powderblue;
-  color: white;
+  color: black;
 }
 
 .save-btn {
