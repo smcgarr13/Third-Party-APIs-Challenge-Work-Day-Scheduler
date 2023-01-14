@@ -23,7 +23,8 @@ N/A
 Please refer to the LICENSE in the repo.
 
 ## Mock-up Reference:
+<img width="536" alt="workday_scheduler" src="https://user-images.githubusercontent.com/117788958/212485860-79f04686-553d-4c68-84cb-1d21549e8695.png">
 
 
 ## Deployed Website:
-https://smcgarr13.github.io/Third-Party-APIs-Challenge-Work-Day-Scheduler/
+https://smcgarr13.github.io/Work-Day-Scheduler/
