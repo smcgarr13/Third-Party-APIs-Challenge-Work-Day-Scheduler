@@ -32,15 +32,26 @@ console.log(dayjs());
     });
     console.log($(".description")[0])
     // get user input that was saved in localStorage
+    var textAreas = $(".description");
+    console.log(textAreas);
     for (let i = 0; i < 9; i++) {
       console.log("message")
       var description = $(".description")[i]
       console.log(description)
       description.value=(localStorage.getItem(i + 9));
       // past, present, or future class
-      if (i+9 == dayjs() .hour()) {
-        description.background
-      }
+      if (i+9 == dayjs().hour()) {
+        description.classList.add("present");
+         //description.background-color.lavenderblush
+        }
+        else if (i+9 < dayjs() .hour()) {
+         description.classList.add("past");
+         //description.background-color.lightgray
+       }
+       if (i+9 > dayjs() .hour()) {
+        description.classList.add("future");
+         //description.background-color.powderblue
+      } 
     }
     // display current date in the header of the page
     // dayjs.extend(localizedFormat);

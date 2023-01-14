@@ -33,7 +33,7 @@ textarea {
 }
 
 .past {
-  background-color: plum;
+  background-color: lightgray;
   color: white;
 }
 
@@ -48,7 +48,7 @@ textarea {
 }
 
 .save-btn {
-  border-left: 1px solid gray;
+  /* border-left: 1px solid gray; */
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: lightgray;
